@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>be.ordina.kickstart-jms</groupId>
+        <artifactId>kickstart-jms</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>..</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>05-spring-jms-topic</artifactId>
+    <groupId>be.ordina.kickstart.jms</groupId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>server</module>
+        <module>topic-receiver</module>
+        <module>topic-sender</module>
+    </modules>
+
+</project>
